@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anshika Gupta Portfolio</title>
+
+    <meta name="description" content="Anshika Gupta — Data Science student, aspiring Software Engineer, and technology enthusiast.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div id="particles-container"></div>
+    <div class="cursor-glow"></div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">AG<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact" class="nav-contact">Let's Connect ↗</a>
+        </nav>
+
+        <button id="themeToggle" class="theme-toggle"
+                aria-label="Toggle light and dark theme">☼</button>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content reveal">
+
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    B.Tech CSEDS Student · Tech Enthusiast
+                </div>
+
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1 class="interactive-name">
+                  <span class="name-line">
+                 <span class="name-letter">A</span><span class="name-letter">n</span><span class="name-letter">s</span><span class="name-letter">h</span><span class="name-letter">i</span><span class="name-letter">k</span><span class="name-letter">a</span>
+              </span>
+             <br>
+         <span class="gradient-text">
+         <span class="name-letter">G</span><span class="name-letter">u</span><span class="name-letter">p</span><span class="name-letter">t</span><span class="name-letter">a</span><span class="name-letter">!</span>
+                 </span>
+                </h1>
+
+                <h2>Data Science Student <span class="divider">/</span>
+                    Aspiring Software Engineer
+                </h2>
+
+                <p class="hero-description">
+                    Curious by nature. Driven by ideas.
+                    Learning to turn technology into meaningful &
+                    real-world solutions.
+                </p>
+
+                <p class="tagline">
+                    <span>✳</span> Turning curiosity into code.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <!-- Replace # with your actual LinkedIn profile URL -->
+                    <a href="#" id="linkedinLink"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                    <span>·</span>
+
+                    <button id="copyEmailTop" class="text-button">
+                        Copy Email ↗
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual reveal">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="photo-frame">
+
+                    <!-- Add your photograph as profile.jpg -->
+                    <img src="profile.jpeg"
+                         alt="Photograph of Anshika Gupta"
+                         class="profile-photo"
+                         onerror="this.style.display='none';">
+
+                    <div class="photo-placeholder">
+                        <span>AG.</span>
+                        <p>Your photograph goes here</p>
+                        <small>Add your photo as profile.jpeg</small>
+                    </div>
+
+                </div>
+
+                <div class="floating-card card-top">
+                    <span class="mini-icon">✳</span>
+                    <div>
+                        <strong>Learning never stops</strong>
+                        <small>And neither does growth!</small>
+                    </div>
+                </div>
+
+                <div class="floating-card card-bottom">
+                    <span class="mini-icon">⌘</span>
+                    <div>
+                        <strong>Aspiring Software Engineer</strong>
+                        <small>Building my foundation</small>
+                    </div>
+                </div>
+
+                <div class="decorative-dot dot-one"></div>
+                <div class="decorative-dot dot-two"></div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span></span> SCROLL TO EXPLORE
+            </a>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Curiosity is where<br>
+                    <span class="gradient-text">everything begins.</span>
+                </h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-main glass-card reveal">
+
+                    <span class="card-number">01 / INTRODUCTION</span>
+
+                    <h3>Not just learning technology.<br>
+                        Learning to build with it.</h3>
+
+                    <p>
+                        Hi! I'm Anshika Gupta, a B.Tech student specializing
+                        in Computer Science and Data Science at KIET Deemed
+                        to be University.
+                    </p>
+
+                    <p>
+                        I'm a determined, self-motivated learner who enjoys
+                        exploring how things work, understanding problems
+                        deeply, and discovering how technology can solve them.
+                    </p>
+
+                    <p>
+                        I'm currently strengthening my foundations in
+                        programming, Data Structures and Algorithms, and
+                        Cloud Computing while exploring the possibilities
+                        of AI and Data Science.
+                    </p>
+
+                    <p>
+                        Sometimes, Growth is hidden in the mistakes you learn from, the problems you approach differently, and the confidence you build just by trying. 
+                    </p>
+
+                </div>
+
+
+                <div class="about-side">
+
+                    <div class="glass-card quality-card reveal">
+                        <span class="card-number">02 / MY APPROACH</span>
+                        <h3>How I think</h3>
+
+                        <div class="quality-item">
+                            <span>✳</span>
+                            <div>
+                                <strong>Curiosity</strong>
+                                <p>I like understanding the why, not just the what.</p>
+                            </div>
+                        </div>
+
+                        <div class="quality-item">
+                            <span>↗</span>
+                            <div>
+                                <strong>Determination</strong>
+                                <p>I believe consistent effort creates progress.</p>
+                            </div>
+                        </div>
+
+                        <div class="quality-item">
+                            <span>⌘</span>
+                            <div>
+                                <strong>Problem-solving</strong>
+                                <p>I enjoy exploring ideas and finding solutions.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="glass-card objective-card reveal">
+
+                        
+
+                        <span class="card-number">03 / CAREER OBJECTIVE</span>
+
+                        <h3>Where I'm headed</h3>
+
+                        <p>
+                            To become a skilled Software Engineer who combines
+                            programming, data, and emerging technologies to
+                            build useful solutions for real-world problems.
+                        </p>
+
+                        <div class="interest-tags">
+                            <span>Software Engineering</span>
+                            <span>Data Analysis</span>
+                            <span>Artificial Intelligence</span>
+                            <span>Cloud Computing</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="hobbies-strip reveal">
+                <span class="strip-label">BEYOND THE CODE</span>
+                <div class="hobby-list">
+                    <span>Exploring new things</span>
+                    <span>Listening & Singing music</span>
+                    <span>Reading</span>
+                    <span>Creative projects</span>
+                    <span>Deep research</span>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY TOOLKIT</p>
+                <h2>Skills I'm building.<br>
+                    <span class="gradient-text">Potential I'm exploring.</span>
+                </h2>
+                <p class="section-description">
+                    A growing toolkit, built through learning, practice,
+                    and experimentation.
+                </p>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">C++</div>
+                    <h3>C++</h3>
+                    <p>Programming fundamentals and problem-solving.</p>
+                    <span class="skill-category">PROGRAMMING</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <h3>HTML5, CSS3 & Javascript</h3>
+                    <p>Creating and styling responsive web interfaces.</p>
+                    <span class="skill-category">WEB DEVELOPMENT</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">P</div>
+                    <h3>Python</h3>
+                    <p>Developing programming knowledge and fundamentals.</p>
+                    <span class="skill-category">PROGRAMMING</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">☁</div>
+                    <h3>AWS Cloud</h3>
+                    <p>Cloud computing concepts and foundational knowledge.</p>
+                    <span class="skill-category">CLOUD</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">DS</div>
+                    <h3>Data Science</h3>
+                    <p>Exploring data, analysis, and meaningful insights.</p>
+                    <span class="skill-category">EXPLORING</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">AI</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Learning about intelligent systems and applications.</p>
+                    <span class="skill-category">EXPLORING</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">⌘</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Exploring version control and collaborative workflows.</p>
+                    <span class="skill-category">DEVELOPMENT TOOLS</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">VS</div>
+                    <h3>VS Code</h3>
+                    <p>My workspace for coding and experimentation.</p>
+                    <span class="skill-category">DEVELOPMENT TOOLS</span>
+                </article>
+
+            </div>
+
+
+            <div class="soft-skills reveal">
+                <span>Problem-Solving</span>
+                <span>Time Management</span>
+                <span>Decision-Making</span>
+                <span>Self-Motivation</span>
+                <span>Adaptability</span>
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section class="section education-section" id="education">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                <h2>Learning today.<br>
+                    <span class="gradient-text">Building tomorrow.</span>
+                </h2>
+            </div>
+
+
+            <div class="education-card glass-card reveal">
+
+                <div class="education-year">
+                    <span>2026</span>
+                    <div class="timeline-line"></div>
+                    <span>2030</span>
+                </div>
+
+                <div class="education-details">
+                    <span class="education-status">
+                        CURRENTLY PURSUING
+                    </span>
+
+                    <h3>Bachelor of Technology</h3>
+
+                    <h4>Computer Science and Data Science (CSEDS)</h4>
+
+                    <p>KIET Deemed to be University</p>
+
+                    <div class="education-meta">
+                        <span>📍 Ghaziabad, Uttar Pradesh</span>
+                        <span>🎓 Expected graduation year: 2030</span>
+                    </div>
+
+                    <p class="education-note">
+                        Focus areas: Programming, Data Structures and
+                        Algorithms, Cloud Computing, and emerging technologies.
+                    </p>
+
+                </div>
+
+                <div class="education-symbol">✳</div>
+
+            </div>
+
+
+            <p class="education-footnote reveal">
+                Additional academic qualifications and achievements
+                can be added here when ready.
+            </p>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">SELECTED WORK</p>
+                <h2>Ideas in progress.<br>
+                    <span class="gradient-text">More coming soon.</span>
+                </h2>
+                <p class="section-description">
+                    Every project begins with a question.
+                    I'm working towards turning more of my ideas into reality.
+                </p>
+            </div>
+
+
+            <div class="project-placeholder glass-card reveal">
+
+                <div class="project-orbit">
+                    <span>&lt;/&gt;</span>
+                </div>
+
+                <span class="project-status">
+                    PORTFOLIO IN PROGRESS
+                </span>
+
+                <h3>Something meaningful is<br>in the making.</h3>
+
+                <p>
+                    My projects will showcase what I learn, the problems
+                    I explore, the technologies I use, and the solutions
+                    I build along the way.
+                </p>
+
+                <div class="interest-tags">
+                    <span>DSA</span>
+                    <span>Data analysis</span>
+                    <span>AI</span>
+                </div>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Let's Connect ↗
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACHIEVEMENTS SECTION -->
+        <section class="section achievements-section" id="achievements">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">MILESTONES & RECOGNITION</p>
+                <h2>Every experience<br>
+                    <span class="gradient-text">adds a new perspective.</span>
+                </h2>
+                <p class="section-description">
+                    Certifications, hackathons, competitions, and opportunities
+                    that contribute to my learning journey.
+                </p>
+            </div>
+
+
+            <div class="achievement-grid">
+
+                <article class="achievement-card glass-card reveal">
+                    <span class="achievement-icon">01</span>
+                    <span class="achievement-type">CERTIFICATIONS</span>
+                    <h3>Learning Beyond Classrooms</h3>
+                    <p>
+                        A space for my technical certifications, online
+                        courses, and learning milestones.
+                    </p>
+                    <span class="coming-soon">Something impressing coming soon ↗</span>
+                </article>
+
+                <article class="achievement-card glass-card reveal">
+                    <span class="achievement-icon">02</span>
+                    <span class="achievement-type">HACKATHONS</span>
+                    <h3>Ideas Into Possibilities</h3>
+                    <p>
+                        Exploring problem-solving, teamwork, and innovative
+                        ideas through hackathons and technology events.
+                    </p>
+                    <span class="coming-soon">Something impressing coming soon ↗</span>
+                </article>
+
+                <article class="achievement-card glass-card reveal">
+                    <span class="achievement-icon">03</span>
+                    <span class="achievement-type">COMPETITIONS</span>
+                    <h3>Growing Through Experience</h3>
+                    <p>
+                        A collection of competitions, campus events,
+                        participation, and future achievements.
+                    </p>
+                    <span class="coming-soon">Something impressing coming soon ↗</span>
+                </article>
+
+            </div>
+
+            <p class="achievement-note reveal">
+                Verified credentials, certificates, and event photographs
+                can be added here as the portfolio grows.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-grid">
+
+                <div class="contact-content reveal">
+
+                    <p class="eyebrow">HAVE AN IDEA?</p>
+
+                    <h2>Let's create<br>
+                        something <span class="gradient-text">meaningful.</span>
+                    </h2>
+
+                    <p class="contact-description">
+                        I'm interested in learning, collaborating on
+                        interesting ideas, and connecting with people
+                        who are passionate about technology.
+                    </p>
+
+                    <div class="contact-info">
+
+                        <div class="contact-item">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <small>EMAIL</small>
+                                <p>anshikagupta.csds@gmail.com</p>
+                            </div>
+                            <button id="copyEmail"
+                                    class="copy-button"
+                                    aria-label="Copy email address">Copy ↗</button>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">⌖</span>
+                            <div>
+                                <small>LOCATION</small>
+                                <p>Meerut, Uttar Pradesh, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">in</span>
+                            <div>
+                                <small>LINKEDIN</small>
+                                <p>Let's connect professionally</p>
+                            </div>
+                            <a href="#" id="contactLinkedIn"
+                               target="_blank" rel="noopener noreferrer"
+                               class="copy-button">Visit ↗</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form-card glass-card reveal">
+
+                    <span class="card-number">SEND A MESSAGE</span>
+
+                    <h3>Start a conversation.</h3>
+
+                    <form id="contactForm">
+
+                        <label for="visitorName">Your name</label>
+                        <input type="text" id="visitorName"
+                               placeholder="Enter your name" required>
+
+                        <label for="visitorEmail">Your email</label>
+                        <input type="email" id="visitorEmail"
+                               placeholder= xyz@gmail.com" required>
+
+                        <label for="visitorMessage">Your message</label>
+                        <textarea id="visitorMessage" rows="4"
+                                  placeholder="Share me your ideas..."
+                                  required></textarea>
+
+                        <button type="submit" class="btn btn-primary form-submit">
+                            Prepare Email <span>↗</span>
+                        </button>
+
+                        <p class="form-note">
+                            This form opens your email application to
+                            prepare a message. It doesn't send automatically.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">AG<span>.</span></a>
+
+        <p>Turning curiosity into code.</p>
+
+        <button id="copyPortfolio" class="footer-link">
+            Copy Portfolio Link ↗
+        </button>
+
+        <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+
+        <div class="footer-bottom">
+            <span>© <span id="currentYear"></span> Anshika Gupta</span>
+            <span>Designed with curiosity & purpose.
+                <i class="fa-solid fa-heart"></i>
+            </span>
+        </div>
+
+    </footer>
+
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    
+        <script src="./script.js"></script>
+</body>
+</html>
