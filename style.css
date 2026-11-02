@@ -1692,3 +1692,21 @@ img {
     color: #c4b5fd;
     transform: translateY(-3px) scale(1.15);
 }
+
+
+/* Mobile Responsive Icons */
+@media screen and (max-width: 768px) {
+    .hobby-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .hobby-list i {
+        font-size: 18px;
+        margin: 0;
+        line-height: 1.5;
+    }
+}
