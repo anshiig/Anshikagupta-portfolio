@@ -1593,6 +1593,7 @@ img {
     color: #d98bff;
     margin-left: 4px;
 }
+
 }
 
 /* Floating particles */
@@ -1600,7 +1601,7 @@ img {
     position: fixed;
     inset: 0;
     overflow: hidden;
-    pointer-events: none;
+    pointer-events:none;
     z-index: 0;
 }
 
@@ -1664,4 +1665,30 @@ img {
     70% {
         transform: translateY(-5px);
     }
+}
+
+.strip-label {
+    text-decoration: underline;
+}
+
+.eyebrow{
+    text-decoration: underline;
+}
+
+/* Hobbies Icons */
+.hobby-list i {
+    color: #a78bfa;
+    font-size: 16px;
+    margin-right: 6px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    top:10px;
+    left:14px;
+}
+
+/* Icon Hover Effect */
+.hobby-list i:hover {
+    color: #c4b5fd;
+    transform: translateY(-3px) scale(1.15);
 }
