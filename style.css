@@ -921,13 +921,13 @@ img {
     position: absolute;
     inset: -10px;
     border: 1px dashed var(--border);
-    border-radius: 50%;
+    border-radius: 55%;
     animation: rotateOrbit 20s linear infinite;
 }
 
 .project-orbit::after {
     inset: -20px;
-    opacity: 0.5;
+    opacity: 0.6;
     animation-direction: reverse;
 }
 
